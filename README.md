@@ -1,11 +1,11 @@
-# asr_jd472
+# cold_start_load_time_timeline_score
 
 **按时间线排列语音识别算法工程师·冷启动与模型加载时间并标出节奏异常。**
 
-`asr_jd472` —— 解析时间标记，排列语音识别算法工程师·冷启动与模型加载时间的发生顺序，标出间隔异常与逆序事件
+`cold_start_load_time_timeline_score` —— 解析时间标记，排列语音识别算法工程师·冷启动与模型加载时间的发生顺序，标出间隔异常与逆序事件
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`asr_jd472.py` 拷走就能用
+- 单文件，`cold_start_load_time_timeline_score.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install skorfield-asr_jd472
+pip install skorfield-cold_start_load_time_timeline_score
 ```
 
 装完直接用命令名调用：
 
 ```bash
-asr_jd472 --help
+cold_start_load_time_timeline_score --help
 ```
 
-也可以不用安装，直接把 `asr_jd472.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `cold_start_load_time_timeline_score.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ asr_jd472 --help
 ## 用法
 
 ```bash
-python asr_jd472.py --file input.txt
-python asr_jd472.py --text "示例内容"
-python asr_jd472.py --file input.txt --json
+python cold_start_load_time_timeline_score.py --file input.txt
+python cold_start_load_time_timeline_score.py --text "示例内容"
+python cold_start_load_time_timeline_score.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python asr_jd472.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_asr_jd472.py
+python test_cold_start_load_time_timeline_score.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_asr_jd472.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/skorfield/asr_jd472>
+- GitHub 仓库：<https://github.com/skorfield/cold_start_load_time_timeline_score>
 
 ---
 
@@ -79,7 +79,7 @@ python test_asr_jd472.py
 skorfield 做语音识别算法工程师·冷启动与模型加载时间相关的问题，方向对标月之暗面的初级语音识别算法工程师岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://skorfield.github.io>
-- 仓库：<https://github.com/skorfield/asr_jd472>
+- 仓库：<https://github.com/skorfield/cold_start_load_time_timeline_score>
 
 ## 许可
 

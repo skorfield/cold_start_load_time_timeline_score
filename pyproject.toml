@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "skorfield-asr_jd472"
+name = "skorfield-cold_start_load_time_timeline_score"
 version = "0.1.0"
 description = "解析时间标记，排列语音识别算法工程师·冷启动与模型加载时间的发生顺序，标出间隔异常与逆序事件"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://skorfield.github.io"
-Repository = "https://github.com/skorfield/asr_jd472"
-Issues = "https://github.com/skorfield/asr_jd472/issues"
+Repository = "https://github.com/skorfield/cold_start_load_time_timeline_score"
+Issues = "https://github.com/skorfield/cold_start_load_time_timeline_score/issues"
 
 [project.scripts]
-asr_jd472 = "asr_jd472:main"
+cold_start_load_time_timeline_score = "cold_start_load_time_timeline_score:main"
 
 [tool.setuptools]
-py-modules = ["asr_jd472"]
+py-modules = ["cold_start_load_time_timeline_score"]
